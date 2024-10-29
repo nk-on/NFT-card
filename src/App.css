@@ -13,4 +13,12 @@
   width: min(90%,350px);
   height: 596px;
   border-radius: 15px;
+  position: relative;
+}
+.equilibrium{
+  position: absolute;
+  top:5%;
+  left: 5%;
+  width: 90%;
+  border-radius: 8px;
 }
