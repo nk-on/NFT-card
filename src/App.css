@@ -9,6 +9,7 @@
   align-items: center;
 }
 .card{
+  padding: 0 40px;
   background-color: var(--card-color);
   width: min(90%,350px);
   height: 596px;

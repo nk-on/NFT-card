@@ -1,0 +1,38 @@
+:root{
+    --clr-white:#FFFFFF;
+    --clr-soft-blue:#8BACD9;
+}
+.Decription-container{
+    position:relative;
+    top:60%;
+    height: 20%;
+    display: grid;
+    gap:10px;
+}
+.Decription-container::after{
+    position: absolute;
+    top:120%;
+    content: '';
+    width: 95%;
+    height: 1px;
+    background-color: var(--clr-soft-blue);
+}
+.Title{
+    font-size: 22px;
+    color: var(--clr-white);
+}
+.Description-text{
+    color: var(--clr-soft-blue);
+}
+.time-left{
+    color: var(--clr-soft-blue);
+}
+.price-section{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.span-container{
+    display: flex;
+    gap:5px;
+}
